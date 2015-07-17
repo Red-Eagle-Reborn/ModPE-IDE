@@ -88,6 +88,124 @@
 				<Param name="Int EntId,x , y, z" />
 			</Overload>
 		</KeyWord>
+		<KeyWord name="setRot" func="yes">
+			<Overload retVal="function" descr="set the entity rot">
+				<Param name="Int EntId, yaw, pitch" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setTile" func="yes">
+			<Overload retVal="function" descr="set some block in some specific coordinate">
+				<Param name="x , y, z, blockId" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setVelX" func="yes">
+			<Overload retVal="function" descr="set entity velocity X">
+				<Param name="Int EntId, velX" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setVelY" func="yes">
+			<Overload retVal="function" descr="set entity velocity Y">
+				<Param name="Int EntId, velY" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setVelZ" func="yes">
+			<Overload retVal="function" descr="set entity velocity Z">
+				<Param name="Int EntId, velZ" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ModPE.joinServer" func="yes">
+			<Overload retVal="function" descr="Join to some mcpe server">
+				<Param name="IP Address, Port" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ModPE.langEdit" func="yes">
+			<Overload retVal="function" descr="Edit a mcpe item name">
+				<Param name="langName, newName" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ModPE.leaveGame" func="yes">
+			<Overload retVal="function" descr="Force player to leaving games">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ModPE.log" func="yes">
+			<Overload retVal="function" descr="Unknown Usage">
+				<Param name="msg" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ModPE.overrideTexture" func="yes">
+			<Overload retVal="function" descr="Override some texture without download it">
+				<Param name="textureName, newTextureLink" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ModPE.selectLevel" func="yes">
+			<Overload retVal="function" descr="Force player to join a world">
+				<Param name="levelDir, levelName, levelSeed, levelGameMode" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ModPE.setFoodItem" func="yes">
+			<Overload retVal="function" descr="Create A New Food Item">
+				<Param name="v" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ModPE.setGameSpeed" func="yes">
+			<Overload retVal="function" descr="Set the game tick or speed">
+				<Param name="ticks" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ModPE.setGuiBlocks" func="yes">
+			<Overload retVal="function" descr="Set a GUI Block">
+				<Param name="url" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ModPE.setItem" func="yes">
+			<Overload retVal="function" descr="Create new item">
+				<Param name="id, itemPngY, itemPngZ, name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ModPE.setTerrain" func="yes">
+			<Overload retVal="function" descr="Set the mcpe terrain">
+				<Param name="url" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ModPE.takeScreenshot" func="yes">
+			<Overload retVal="function" descr="Take a Screenshot">
+				<Param name="filename" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Item.addCraftRecipe" func="yes">
+			<Overload retVal="function" descr="Make the item crafting recipe">
+				<Param name="id,count,damage,[inputId,inputCount,inputDamage[" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Item.addFurnaceRecipe" func="yes">
+			<Overload retVal="function" descr="Make the item furnace recipe">
+				<Param name="outputid,outputdamage,inputid" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Item.setCategory" func="yes">
+			<Overload retVal="function" descr="Set item category">
+				<Param name="Int Category" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Item.addShapedRecipe" func="yes">
+			<Overload retVal="function" descr="Make the item shaped crafting recipe">
+				<Param name="id, count, damage, [topSquare, middleSquare, bottomSquare], [key, itemId, itemDamage,key,itemId,itemDamage]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.addParticle" func="yes">
+			<Overload retVal="function" descr="Add some particle in some coordinate with a specific particle types">
+				<Param name="ParticleType,x,y,z,velX,velY,velZ,size" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.dropItem" func="yes">
+			<Overload retVal="function" descr="Drop item in some coordinates with a specific particle types">
+				<Param name="x,y,z,range,itemid,count,data/damage" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.getAddress" func="yes">
+			<Overload retVal="function" descr="Unknown Usage">
+			</Overload>
+		</KeyWord>
 		<KeyWord name="acos" />
 		<KeyWord name="action" />
 		<KeyWord name="addEventListener" />
