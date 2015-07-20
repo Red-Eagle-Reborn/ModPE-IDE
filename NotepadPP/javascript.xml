@@ -206,6 +206,328 @@
 			<Overload retVal="function" descr="Unknown Usage">
 			</Overload>
 		</KeyWord>
+		<KeyWord name="Level.getChestSlot" func="yes">
+			<Overload retVal="function" descr="Get the Chest Slot">
+				<Param name="x, y, z, int slot" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.getChestSlotCount" func="yes">
+			<Overload retVal="function" descr="Get the item amount in chest slot">
+				<Param name="x, y, z, int slot" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.getChestSlotData" func="yes">
+			<Overload retVal="function" descr="Get the item data in chest slot">
+				<Param name="x, y, z, int slot" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.getData" func="yes">
+			<Overload retVal="function" descr="Unknown Usage">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.getGameMode" func="yes">
+			<Overload retVal="function" descr="Get the World gamemode">
+				<Param name="int gamemode" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.getSignText" func="yes">
+			<Overload retVal="function" descr="Get the sign text in specific line">
+				<Param name="x, y, z, int line" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.getTime" func="yes">
+			<Overload retVal="function" descr="Get the world name">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.getWorldDir" func="yes">
+			<Overload retVal="function" descr="Get the world directory">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.playSound" func="yes">
+			<Overload retVal="function" descr="Play sound in some coordinate">
+				<Param name="x,y,z,String Sound,volume,pitch" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.getWorldName" func="yes">
+			<Overload retVal="function" descr="Get the world name">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.playSoundEnt" func="yes">
+			<Overload retVal="function" descr="Play sound in some entity">
+				<Param name="ent,String Sound,volume,pitch" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.setChestSlot" func="yes">
+			<Overload retVal="function" descr="Set the item in chest slot">
+				<Param name="x,y,z,int slot,id,damage,count" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.setNightMode" func="yes">
+			<Overload retVal="function" descr="Set world to be night">
+				<Param name="Boolean" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.setSpawn" func="yes">
+			<Overload retVal="function" descr="Set the world spawn">
+				<Param name="x, y, z" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.setTile" func="yes">
+			<Overload retVal="function" descr="Set some block in specific coordinate">
+				<Param name="x, y, z, blockId" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.setTime" func="yes">
+			<Overload retVal="function" descr="Set the world time">
+				<Param name="Int time" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Level.getBrightness" func="yes">
+			<Overload retVal="function" descr="Get the brightness in some coords">
+				<Param name="x, y, z" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.addItemInventory" func="yes">
+			<Overload retVal="function" descr="Add item to survival player inventory">
+				<Param name="itemid,data,count" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.clearInventorySlot" func="yes">
+			<Overload retVal="function" descr="Clear player inventory slot">
+				<Param name="Int Slot" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.getArmorSlot" func="yes">
+			<Overload retVal="function" descr="Get the armor slot">
+				<Param name="int armorslot" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.getArmorSlotDamage" func="yes">
+			<Overload retVal="function" descr="Get the armor damage in armor slot">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.getCarriedItem" func="yes">
+			<Overload retVal="function" descr="Get the player carried item">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.getCarriedItemCount" func="yes">
+			<Overload retVal="function" descr="Get the player carried item Count">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.getCarriedItemData" func="yes">
+			<Overload retVal="function" descr="Get the player carried item Data">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.getEntity" func="yes">
+			<Overload retVal="function" descr="Get the player entity">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.getInventorySlot" func="yes">
+			<Overload retVal="function" descr="Get the player inventory slot">
+				<Param name="Int Slot" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.getInventorySlotCount" func="yes">
+			<Overload retVal="function" descr="Get the player inventory slot count">
+				<Param name="Int Slot" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.getInventorySlotData" func="yes">
+			<Overload retVal="function" descr="Get the player inventory slot Data">
+				<Param name="Int Slot" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.getSelectedSlotId" func="yes">
+			<Overload retVal="function" descr="Get player selected slot id in item holbar">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.getX" func="yes">
+			<Overload retVal="function" descr="Get the player X">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.getX" func="yes">
+			<Overload retVal="function" descr="Get the player Y">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.getX" func="yes">
+			<Overload retVal="function" descr="Get the player Z">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.setCanFly" func="yes">
+			<Overload retVal="function" descr="Allow player to fly">
+				<Param name="Boolean 1 or 0" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.setArmorSlot" func="yes">
+			<Overload retVal="function" descr="Set the player armor">
+				<Param name="Int slot, id, damage" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.setHealth" func="yes">
+			<Overload retVal="function" descr="Set player health">
+				<Param name="int health" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Player.addItemCreativeInv" func="yes">
+			<Overload retVal="function" descr="Add item to creative player inventory">
+				<Param name="id, amount, damage" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.addEffect" func="yes">
+			<Overload retVal="function" descr="Add effect to some entity">
+				<Param name="ent,Effect Name,duration,amplication or level,ambient,boolean showParticle" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.getAnimalAge" func="yes">
+			<Overload retVal="function" descr="get the animal age">
+				<Param name="ent" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.getEntityTypeId" func="yes">
+			<Overload retVal="function" descr="Get the entity Id">
+				<Param name="ent" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.getHealth" func="yes">
+			<Overload retVal="function" descr="get the entity health">
+				<Param name="ent" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.getPitch" func="yes">
+			<Overload retVal="function" descr="Get the entity pitch">
+				<Param name="ent" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.getX" func="yes">
+			<Overload retVal="function" descr="Get the entity X coords">
+				<Param name="Int EntId" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.getY" func="yes">
+			<Overload retVal="function" descr="Get the entity Y coords">
+				<Param name="Int EntId" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.getZ" func="yes">
+			<Overload retVal="function" descr="Get the entity Z coords">
+				<Param name="Int EntId" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.getYaw" func="yes">
+			<Overload retVal="function" descr="Get the entity yaw">
+				<Param name="Int EntId" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.remove" func="yes">
+			<Overload retVal="function" descr="Remove entity from worlds">
+				<Param name="Int EntId" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.rideAnimal" func="yes">
+			<Overload retVal="function" descr="Set the entity ride another entity">
+				<Param name="Int riderEntId, Int mountRiderId" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.setAnimalAge" func="yes">
+			<Overload retVal="function" descr="Set the animal age">
+				<Param name="Animal Id, Int Age" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.setCarriedItem" func="yes">
+			<Overload retVal="function" descr="Set the entity carried Item">
+				<Param name="Int EntId, carried item id, count,data" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.setFireTicks" func="yes">
+			<Overload retVal="function" descr="Set entity to burning on fire">
+				<Param name="Int EntId, duration" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.setHealth" func="yes">
+			<Overload retVal="function" descr="Set the entity health">
+				<Param name="Int EntId, velY" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.setMobSkin" func="yes">
+			<Overload retVal="function" descr="Set the entity skin">
+				<Param name="ent,String Texture Location" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.setPosition" func="yes">
+			<Overload retVal="function" descr="Set the entity position">
+				<Param name="Int EntId, x, y, z" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.setPositionRelative" func="yes">
+			<Overload retVal="function" descr="Set the entity relative position">
+				<Param name="Int EntId, x, y, z" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.setRenderType" func="yes">
+			<Overload retVal="function" descr="Set the entity render type">
+				<Param name="int EntID,renderType" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.setRot" func="yes">
+			<Overload retVal="function" descr="Set entity rot">
+				<Param name="Int EntId, yaw, pitch" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.setVelY" func="yes">
+			<Overload retVal="function" descr="set entity velocity Y">
+				<Param name="Int EntId, velY" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.setVelZ" func="yes">
+			<Overload retVal="function" descr="set entity velocity Z">
+				<Param name="Int EntId, velZ" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.setVelX" func="yes">
+			<Overload retVal="function" descr="set entity velocity X">
+				<Param name="Int EntId, velX" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Entity.spawnMob" func="yes">
+			<Overload retVal="function" descr="Spawn mob">
+				<Param name="Int EntId, x, y, z, entity skin" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Block.defineBlock" func="yes">
+			<Overload retVal="function" descr="Create new Block">
+				<Param name="id,StringName,StringTexture,TextureData,BooleanOpaque,int renderType" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Block.setColor" func="yes">
+			<Overload retVal="function" descr="Set the block color">
+				<Param name="id,HTML Color" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Block.setDestroyTime" func="yes">
+			<Overload retVal="function" descr="Set the block hardeness or destroy time">
+				<Param name="Block Id,Int destroyTime" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Block.setExplosionResistance" func="yes">
+			<Overload retVal="function" descr="Set the block explosion resistance">
+				<Param name="Block Id,Int explosion resistance" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Block.setLightLevel" func="yes">
+			<Overload retVal="function" descr="sSet the block light level">
+				<Param name="id,int lightlevel" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Block.setLightOpacity" func="yes">
+			<Overload retVal="function" descr="Set the block opacity">
+				<Param name="id,int lightOpacityLevel" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Block.setRenderLayer" func="yes">
+			<Overload retVal="function" descr="Set the block render layer">
+				<Param name="id,int renderLayer" />
+			</Overload>
+		</KeyWord>
 		<KeyWord name="acos" />
 		<KeyWord name="action" />
 		<KeyWord name="addEventListener" />
